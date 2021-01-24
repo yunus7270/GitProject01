@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-17T20:16:30 CST" name="Surefire suite" finished-at="2021-01-17T20:16:45 CST" duration-ms="15329">
+    <groups>
+    </groups>
+    <test started-at="2021-01-17T20:16:30 CST" name="Surefire test" finished-at="2021-01-17T20:16:45 CST" duration-ms="15329">
+      <class name="yunuso.Maven02.TestMavenProject2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:yunuso.Maven02.TestMavenProject2@971d0d8]" started-at="2021-01-17T20:16:38 CST" name="beforeTest" finished-at="2021-01-17T20:16:43 CST" duration-ms="4724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testMaven01()[pri:0, instance:yunuso.Maven02.TestMavenProject2@971d0d8]" started-at="2021-01-17T20:16:44 CST" name="testMaven01" finished-at="2021-01-17T20:16:45 CST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaven01 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:yunuso.Maven02.TestMavenProject2@971d0d8]" started-at="2021-01-17T20:16:45 CST" name="afterTest" finished-at="2021-01-17T20:16:45 CST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- yunuso.Maven02.TestMavenProject2 -->
+      <class name="yunuso.Maven02.TestMavenProject1">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:yunuso.Maven02.TestMavenProject1@176d53b2]" started-at="2021-01-17T20:16:30 CST" name="beforeTest" finished-at="2021-01-17T20:16:38 CST" duration-ms="8125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testMaven01(java.lang.String, java.lang.String)[pri:0, instance:yunuso.Maven02.TestMavenProject1@176d53b2]" started-at="2021-01-17T20:16:43 CST" name="testMaven01" data-provider="getData" finished-at="2021-01-17T20:16:44 CST" duration-ms="1504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Elifim Burcum]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11102014]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaven01 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:yunuso.Maven02.TestMavenProject1@176d53b2]" started-at="2021-01-17T20:16:45 CST" name="afterTest" finished-at="2021-01-17T20:16:45 CST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- yunuso.Maven02.TestMavenProject1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
